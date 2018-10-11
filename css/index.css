@@ -349,7 +349,6 @@ body {
 .main {
     height: 480px;
     position: relative;
-    background-color: #f00; 
 }
 
 .main .shop-list {
@@ -467,4 +466,457 @@ body {
 .main .banner .left-arrow:hover,
 .main .banner .right-arrow:hover {
     background-color: rgba(0,0,0,.3);
+}
+
+.main .info {
+	width: 190px;
+	height: 480px;
+    float: right;
+    background-color: #fff;
+}
+
+.main .info .uesr-info {
+    height: 115px;
+    border-bottom: 1px solid #e6e6e6;
+    position: relative;
+}
+
+.main .uesr-info .uesr-icon {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.main .uesr-info .uesr-icon a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background: url("../images/no_login.jpg");
+    background-size: 40px;
+}
+
+.main .uesr-info .welcome {
+    position: absolute;
+    top: 23px;
+    left: 70px;
+    color: #666;
+}
+
+.main .uesr-info .tools {
+    position: absolute;
+    top: 45px;
+    left: 70px;
+}
+
+.main .uesr-info .tools a {
+    color: #666;
+}
+
+.main .uesr-info .tools a:hover {
+    color: #f10215;
+}
+
+.main .uesr-info .tools a:first-child {
+    margin-right: 4px;
+}
+
+.main .uesr-info .btn {
+    position: absolute;
+    left: 15px;
+    bottom: 16px;
+}
+
+.main .uesr-info .btn a {
+    float: left;
+    width: 70px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    border: 2px solid #e01222;
+    color: #e01222;
+}
+
+.main .uesr-info .btn a:first-child {
+    margin-right: 10px;
+}
+
+.main .info .news {
+    height: 154px;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 0px 15px;
+}
+
+.main .info .news .title {
+    height: 26px;
+    border-bottom: 1px solid #e6e6e6;
+    position: relative;
+}
+
+.main .info .news .title a {
+    color: #333;
+    float: left;
+    margin-top: 10px;
+}
+
+.main .info .news .title a.slod {
+    margin-left: 3px;
+}
+
+.main .info .news .title a.more {
+    float: right;
+}
+
+.main .info .news .title i.line {
+    width: 1px;
+    height: 18px;
+    float: left;
+    background-color: #e6e6e6;
+    margin: 7px 15px 0px 13px;
+}
+
+.main .info .news .title .underline {
+    width: 28px;
+    height: 2px;
+    background-color: #db192b;
+    position: absolute;
+    left: 0px;
+    bottom: -1px;
+}
+
+.main .info .news-list ul {
+    margin-top: 14px;
+}
+
+.main .info .news-list li {
+    height: 24px;
+    line-height: 24px;
+}
+
+.main .info .news-list li a {
+    color: #666;
+}
+
+.main .info .service {
+    height: 209px;
+}
+
+.main .info .service li {
+    width: 47px;
+    height: 69px;
+    float: left;
+    border-right: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;;
+}
+
+.main .info .service li a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: #666;
+    text-align: center;
+}
+
+.main .info .service li a i.icon {
+    width: 24px;
+    height: 24px;
+    background: url("../images/sprite_fs@1x.png");
+    display: block;
+    margin: 13px auto 8px;
+}
+
+.main .info .service li:nth-child(4n) {
+    border: 0px none;
+    width: 46px;
+}
+
+.main .info .service li:nth-child(1) a i.icon {
+    background-position: 0px -88px;
+}
+
+.main .info .service li:nth-child(2) a i.icon {
+    background-position: 0px -44px;
+}
+
+.main .info .service li:nth-child(3) a i.icon {
+    background-position: -44px -88px;
+}
+
+.main .info .service li:nth-child(4) a i.icon {
+    background-position: -88px 0px;
+}
+
+.main .info .service li:nth-child(7) a i.icon {
+    background-position: -44px -44px;
+}
+
+.main .info .service li:nth-child(8) a i.icon {
+    background-position: -88px -88px;
+}
+
+.main .info .service li:nth-child(5) a i.icon {
+    background-position: -88px -44px;
+}
+
+.main .info .service li:nth-child(9) a i.icon {
+    background-position: -132px 0px;
+}
+
+.main .info .service li:nth-child(10) a i.icon {
+    background-position: -132px -44px;
+}
+
+.main .info .service li:nth-child(11) a i.icon {
+    background-position: -132px -88px;
+}
+
+.main .info .service li:nth-child(12) a i.icon {
+    background-position: -44px 0px;
+}
+
+.main .img-ad {
+    width: 790px;
+    float: left;
+    margin-top: 10px;
+}
+
+.main .img-ad a:first-child {
+    float: left;
+}
+
+.main .img-ad a:last-child {
+    float: right;
+}
+
+
+/* 秒杀模块的css代码 */
+
+.seckill {
+    margin-top: 10px
+}
+
+.seckill-title {
+    height: 55px;
+    background: url("../images/seckill_hd.png");
+    position: relative;
+}
+
+.seckill-title i.anglo {
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: url("../images/sprite_index@1x.png") -194px -52px; 
+}
+
+.seckill-title i.clock {
+    width: 33px;
+    height: 40px;
+    background: url("../images/sprite_index@1x.png") 0px -39px;
+    position: absolute;
+    top: 8px;
+    left: 30px;
+}
+
+.seckill-title span.title {
+    font-size: 24px;
+    line-height: 55px;
+    position: absolute;
+    left: 73px;
+    color: #fff;
+}
+
+.seckill-title .solgan {
+    color: #fff;
+    position: absolute;
+    top: 26px;
+    left: 187px;
+}
+
+.seckill-title a.more {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background: url("../images/sprite_index@1x.png") -153px -40px;
+    left: 300px;
+    top: 23px;
+}
+
+
+.seckill-title i.time {
+    width: 290px;
+    height: 55px;
+    position: absolute;
+    right: 0px;
+}
+
+.seckill-title i.time i.first {
+    color: #fff;
+    position: absolute;
+    top: 27px;
+    left: 5px;
+}
+
+.seckill-title .time i.hour,
+.seckill-title .time i.min,
+.seckill-title .time i.sec {
+    width: 35px;
+    height: 37px;
+    background-color: rgba(0,0,0,.7);
+    border-radius: 5px;
+    position: absolute;
+    color: #f10215;
+    font-size: 20px;
+    line-height: 37px;
+    text-align: center;
+    top: 10px;
+    left: 63px;
+}
+
+.seckill-title .time .point1,
+.seckill-title .time .point2 {
+    position: absolute;
+    top: 22px;
+}
+
+.seckill-title .time .point1 {
+    left: 102px;
+}
+
+.seckill-title .time .up,
+.seckill-title .time .down {
+    width: 4px;
+    height: 4px;
+    background-color: rgba(0,0,0,.7);
+    border-radius: 2px;
+    display: block;
+}
+
+.seckill-title .time .up {
+    margin-bottom: 4px;
+}
+
+.seckill-title .time i.min {
+    left: 110px;
+}
+
+.seckill-title .time .point2 {
+    left: 149px;
+}
+
+.seckill-title .time i.sec {
+    left: 157px;
+}
+
+.seckill-title .time i.last {
+    color: #fff;
+    position: absolute;
+    top: 27px;
+    right: 26px;
+}
+
+.seckill .seckill-list {
+    width: 100%;
+    height: 250px;
+    background-color: #fff;
+}
+
+.seckill-list ul {
+    float:left;
+    padding-top: 12px;
+}
+
+.seckill-list li {
+    float: left;
+    width: 199px;
+    height: 225px; 
+    border-right: 1px solid #e6e6e6;
+}
+
+.seckill-list li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.seckill-list li a i.icon {
+    display: block;
+    width: 130px;
+    height: 130px;
+    margin: 17px auto 0px;
+    background: url("../images/月饼.jpg");
+}
+
+.seckill-list li a i.shadow {
+    display: block;
+    width: 130px;
+    height: 5px;
+    background: url("../images/sprite_index@1x.png") -25px -15px;
+    margin: 0px auto;
+}
+
+.seckill-list li a i.name {
+    display: block;
+    /* 为什么没有转换成块级的话，paddin会出现bug? */
+    padding: 0px 15px;
+    line-height: 16px;
+    text-align: center;
+    margin-top: 14px;
+}
+
+.seckill-list li .pirce {
+    padding-left: 15px;
+    display: block;
+    margin-top: 10px;
+}
+
+.seckill-list li .pirce .now {
+    color: #f10215;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 3px;
+}
+
+.seckill-list li .pirce .now i {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.seckill-list .craze  {
+    float: right;
+    margin-top: 12px;
+    /* 父盒子是标准流，没有内边距和边框。子盒子margin-top为什么不会引起包含塌陷，子盒子带走父盒子？ */
+    margin-right: 10px;
+    width: 180px;
+    height: 225px;
+    background-color: #fff;
+    position: relative;
+}
+
+.seckill-list .craze a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url("../images/品类秒杀.jpg");
+}
+
+.seckill-list .craze .sel {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.seckill-list .craze .sel i {
+    float: left;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #342a2d;    
+}
+
+.seckill-list .craze .sel i.tag {
+    background-color: #f10215;
+    margin-left: 6px;
 }
