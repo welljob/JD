@@ -626,7 +626,7 @@ body {
 }
 
 .main .info .service li:nth-child(4n) {
-    border: 0px none;
+    border-right: 0px none;
     width: 46px;
 }
 
@@ -646,16 +646,16 @@ body {
     background-position: -88px 0px;
 }
 
+.main .info .service li:nth-child(5) a i.icon {
+    background-position: -88px -44px;
+}
+
 .main .info .service li:nth-child(7) a i.icon {
     background-position: -44px -44px;
 }
 
 .main .info .service li:nth-child(8) a i.icon {
     background-position: -88px -88px;
-}
-
-.main .info .service li:nth-child(5) a i.icon {
-    background-position: -88px -44px;
 }
 
 .main .info .service li:nth-child(9) a i.icon {
@@ -919,4 +919,233 @@ body {
 .seckill-list .craze .sel i.tag {
     background-color: #f10215;
     margin-left: 6px;
+}
+
+
+
+
+/* 底部模块的CSS代码 */
+
+.footer {
+    width: 100%;
+    height: 620px;
+    background-color: #eaeaea;
+    margin-top: 20px;
+}
+
+.footer .border {
+    width: 100%;
+    height: 102px;
+    border-bottom: 1px solid #dedede;
+}
+
+.footer .slogan {
+    height: 102px;
+}
+
+.footer .slogan li {
+    float: left;
+    margin-right: 91px;
+}
+
+.footer .slogan li:first-child {
+    margin-left: 36px;
+}
+
+.footer .slogan li:last-child {
+    margin-right: 0px;
+}
+
+.footer .slogan li i.icon {
+    float: left;
+    width: 36px;
+    height: 42px;
+    background: url("../images/ico_service.png");
+    margin-top: 30px;
+    margin-right: 9px;
+}
+
+.footer .slogan li span {
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 18px;
+    margin-top: 44px;
+}
+
+.footer .slogan li:nth-child(2) i.icon {
+    background-position-y: -43px;
+}
+
+.footer .slogan li:nth-child(3) i.icon {
+    background-position-y: -86px;
+}
+
+.footer .slogan li:nth-child(4) i.icon {
+    background-position-y: -129px;
+}
+
+.footer .user-help {
+    height: 200px;
+    border-bottom: 1px solid #dedede;
+}
+
+.footer .user-help ul {
+    float: left;
+    margin-right: 141px;
+}
+
+/* .footer .user-help ul:last-child {
+    margin-right: 0px;
+} */
+
+.footer .user-help ul:nth-child(5) {
+    margin-right: 0px;
+}
+/* 为什么使用last-child右外边距没有变为0 */
+
+.footer .user-help li {
+    line-height: 22px; 
+}
+
+.footer .user-help li:first-child {
+    font-size: 14px;
+    line-height: 32px;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #666; 
+}
+
+.footer .user-help li a {
+    color: #666;
+}
+
+.footer .user-help li a:hover {
+    color: #f10215;
+}
+
+.footer .user-help .map {
+    width: 196px;
+    height: 145px;
+    background: url("../images/ico_footer.png") -1px -2px;
+    float: right;
+    margin-top: 22px;
+    margin-right: 3px;
+}
+
+.footer .user-help .map .title {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    color: #666; 
+    text-align: center;
+}
+
+.footer .user-help .map .desc {
+    line-height: 18px;
+    color: #666;
+    padding: 0px 12px 0px 10px;
+    margin-top: 16px;
+}
+
+.footer .map .more {
+    text-align: right;
+    padding-right: 13px;
+}
+
+.footer .map a.gengduo {
+    font-size: 12px;
+    color: #666;
+    line-height: 20px;
+}
+
+.footer .map a.gengduo:hover {
+    color: #f10215;
+}
+
+.footer .web-info {
+    height: 316px;
+    text-align: center;
+    overflow: hidden;
+    /* 清楚包含塌陷 */
+}
+
+.footer .web-info .web-links {
+    margin: 19px 0px 12px;
+}
+
+.footer .web-info .web-links span {
+    margin: 0px 7px;
+    color: #d1ccd1;
+}
+
+.footer .web-info .web-links a {
+    color: #666;
+}
+
+.footer .web-info .web-links a:hover {
+    color: #f10215;
+}
+
+
+.footer .web-info .copyright {
+    line-height: 22px;
+}
+
+
+.footer .web-info .copyright span {
+    margin: 0px 7px;
+    color: #d1ccd1;
+}
+
+.footer .web-info .copyright a {
+    color: #999;
+}
+
+.footer .web-info .copyright a:hover {
+    color: #f10215;
+}
+
+.footer .web-info .copyright i {
+    color: #999;
+}
+
+.footer .web-info .copyright3 a {
+    margin-left: 16px;
+}
+
+.footer .web-info .web-icon {
+    margin-top: 12px;
+}
+
+.footer .web-info .web-icon a {
+    display: inline-block;
+    width: 103px;
+    height: 32px;
+    background: url("../images/ico_footer.png");
+    margin-right: 6px;
+}
+
+.footer .web-info .web-icon a:nth-child(1) {
+    background-position: 0px -151px;
+}
+
+.footer .web-info .web-icon a:nth-child(2) {
+    background-position: -104px -151px;
+}
+
+.footer .web-info .web-icon a:nth-child(3) {
+    background-position: 0px -184px;
+}
+
+.footer .web-info .web-icon a:nth-child(4) {
+    background-position: -104px -184px;
+}
+
+.footer .web-info .web-icon a:nth-child(5) {
+    background-position: 0px -217px;
+}
+
+.footer .web-info .web-icon a:nth-child(6) {
+    background-position: -104px -217px;
 }
